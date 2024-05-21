@@ -1,5 +1,4 @@
-# example of sortingBubble
-# algorithm O(n*2)
+# example of sortingBubble. Algorithm O(n*2)
 
 import random
 
