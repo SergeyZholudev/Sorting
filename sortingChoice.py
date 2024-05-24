@@ -21,9 +21,9 @@ def sortingChoice(arr):
     return newArr
 
 # создаём список вещественных чисел
-numbers = [random.randint(0, 100) for i in range(0, 15)]
-print(f"Несортированный список \n  {numbers}")
+numbers = [random.randint(0, 100) for i in range(0, 110000)]
+# print(f"Несортированный список \n  {numbers}")
 
-# основное тело 
+# основное тело
 sortedArr = sortingChoice(numbers)
-print(f"Сортированный массив \n  {sortedArr}")
+# print(f"Сортированный массив \n  {sortedArr}")

@@ -1,9 +1,8 @@
-# Sorting
-The repository for investigation of algorithms.
+24.05.2024. Adding of new algorithms.
+This "project" for learning of sorting algorithms. Now there is
+the list of the next:
+1. Buuble
+2. Choice
+3. Recursion
+4. Quick by merging.
 
-In this repository I have exmples of code for different
-types of sorting:
-1. Bubble.
-2. Insertion
-3. Choice
-4. Quick sorting
