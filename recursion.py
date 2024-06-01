@@ -1,15 +1,26 @@
 # демонстрация работы рекурсивной функции
 
-def recursion(i):
-    """рекурсивная функция"""
-    if i <= 0:
-        print("Наступил базовый случай")
-        return
+# def sum(n):
+#     if n == 0:
+#         return 0
+#     else:
+#         return n + sum(n - 1)
+
+# print(sum(10))
+
+# def fact(x):
+#     if x == 1:
+#         return 1
+#     else:
+#         return x * fact(x - 1)
+    
+# print(fact(5))
+
+def count(arr):
+    if not arr:
+        return 0
     else:
-        print(f"Рекурсивный случай {i}")
-        recursion(i-1)
-        print(f"Рекурсивный случай {i}")
+        return 1 + count(arr[1:])
 
-
-# основное тело
-recursion(10)
+numbers = [i for i in range(30)]    
+print(count(numbers))
